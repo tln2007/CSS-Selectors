@@ -1,0 +1,79 @@
+html, body {
+  background-image: linear-gradient(to bottom, rgba(0,116,155,0), rgba(0,116,155,1));
+  background-size: 100%;
+  height: 100vw;
+  background-repeat: no-repeat;
+  margin: 0px;
+  padding: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  color: rgb(118,188,210);
+  font-family: 'Loved by the King', cursive;
+  font-size: 2.5vw;
+}
+
+.mixtape {
+  position: absolute;
+  top: 1vw;
+  left: 25vw;
+}
+
+#lyrics {
+  color: white;
+  font-family: 'Gaegu', cursive;
+  font-size: 2vw;
+}
+
+#quote {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 2vw;
+}
+
+.text {
+  position: absolute;
+  top: 58vw;
+  left: 36vw;
+  width: 28vw;
+  height: 28vw;
+  background: #FFF;
+  opacity: 0;
+}
+
+.cover:hover .text {
+  opacity: 0.6;
+  text-align: center;
+  color: black;
+  font-size: 2vw;
+  font-family: 'Gaegu', cursive;
+  padding: 9vw;
+}
+
+a {
+  position: absolute;
+  top: 88vw;
+  left: 38vw;
+  color: white;
+  font-size: 2.5vw;
+  font-family: 'Gaegu', cursive;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  transition: 0.7s;
+  color: rgb(0,120,151);
+  text-shadow: 2px 2px white;
+}
